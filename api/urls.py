@@ -1,27 +1,14 @@
-"""Video_online URL Configuration
-    二级路由
-
-"""
-
 from django.conf.urls import url
-from api.Views import course
+from api.views.course import coursehost
+from api.views.user import account
+from api.views.course import newspapers
 
 urlpatterns = [
-    url(r'^course/$', course.CourseView.as_view({'get':'list'})),
-    url(r'^course/(?P<pk>\d+)/$', course.CourseView.as_view({'get':'retrieve'})),
-
-
-    url(r'^article/$', course.ArticleView.as_view({'get': 'list'})),
-    url(r'^article/(?P<pk>\d+)/$', course.ArticleView.as_view({'get': 'retrieve'})),
-
-    url(r'^article/(?P<pk>\d+)/agree/$', course.AgreeView.as_view({'post': 'post'})),
-
-    url(r'^article/(?P<pk>\d+)/collect/$', course.CollectView.as_view({'post': 'post'})),
-
-    url(r'^article/(?P<pk>\d+)/comment/$', course.CommentView.as_view({'post': 'post'})),
-    url(r'^comment/$', course.CommentView.as_view({'get': 'list', 'post': 'post'})),
-
+    url(r'^course/$', coursehost.CourseViewSet.as_view({"get": "list"})),
+    url(r'^course/(?P<pk>\d+)/$', coursehost.CourseViewSet.as_view({"get": "retrieve"})),
+    url(r'^login/$', account.loginView.as_view()),
+    url(r'^newspapers/$', newspapers.NewsPapers.as_view({"get": "list"})),
+    url(r'^newspapers/(?P<pk>\d+)/$', newspapers.NewsPapers.as_view({"get": "retrieve"})),
+    url(r'^newspapers/(?P<pk>\d+)/agree/$', newspapers.AgreeView.as_view({'post': 'post'})),
 
 ]
-
-
