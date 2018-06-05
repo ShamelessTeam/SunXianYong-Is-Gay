@@ -1,0 +1,946 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2d8407ac-ca6a-4788-a61c-e5b109dd06ca" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/TmSccity_models.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/02232c4b-11b1-41d5-ab85-756088e56389.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/02232c4b-11b1-41d5-ab85-756088e56389/storage_v2/_src_/schema/main.uQUzAA.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/92b07afa-2c8e-4e63-ac06-f846cb2e5974/_metadata_/metadata" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/92b07afa-2c8e-4e63-ac06-f846cb2e5974/_metadata_/metadata.keystream" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/92b07afa-2c8e-4e63-ac06-f846cb2e5974/_metadata_/metadata.keystream.len" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/92b07afa-2c8e-4e63-ac06-f846cb2e5974/_metadata_/metadata.len" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/92b07afa-2c8e-4e63-ac06-f846cb2e5974/_metadata_/metadata.values.at" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/92b07afa-2c8e-4e63-ac06-f846cb2e5974/_metadata_/metadata_i" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/92b07afa-2c8e-4e63-ac06-f846cb2e5974/_metadata_/metadata_i.len" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/92b07afa-2c8e-4e63-ac06-f846cb2e5974/storage.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/92b07afa-2c8e-4e63-ac06-f846cb2e5974/storage_v2/_src_/schema/main.uQUzAA.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/TmSccity_models/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/TmSccity_models/settings.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/TmSccity_models/urls.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/TmSccity_models/wsgi.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/api/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/api/admin.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/api/apps.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/api/migrations/0001_initial.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/api/migrations/0002_auto_20180603_2037.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/api/migrations/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/api/models.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/api/serializers/ArticleView.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/api/serializers/CourseView.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/api/tests.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/api/urls.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/api/views.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/api/views/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/api/views/article/ArticleView.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/api/views/course/CourseView.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/api/views/course/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/db.sqlite3" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/manage.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/面试题" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/TmSccity_models$tests.coverage" NAME="tests Coverage Results" MODIFIED="1528007304171" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api" />
+    <SUITE FILE_PATH="coverage/luffy_models$manage.coverage" NAME="manage Coverage Results" MODIFIED="1528039312876" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand />
+    <select />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TmSccity_models/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="21" column="50" lean-forward="true" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
+              <folding>
+                <element signature="e#649#689#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="9" column="84" lean-forward="false" selection-start-line="9" selection-start-column="84" selection-end-line="9" selection-end-column="84" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1674">
+              <caret line="119" column="24" lean-forward="false" selection-start-line="119" selection-start-column="24" selection-end-line="119" selection-end-column="24" />
+              <folding>
+                <element signature="e#310#504#0" expanded="false" />
+                <element signature="e#424#447#0" expanded="false" />
+                <element signature="e#473#504#0" expanded="false" />
+                <element signature="e#549#798#0" expanded="false" />
+                <element signature="e#718#741#0" expanded="false" />
+                <element signature="e#767#798#0" expanded="false" />
+                <element signature="e#839#1841#0" expanded="false" />
+                <element signature="e#1476#1515#0" expanded="false" />
+                <element signature="e#1769#1785#0" expanded="false" />
+                <element signature="e#1811#1841#0" expanded="false" />
+                <element signature="e#2323#2339#0" expanded="false" />
+                <element signature="e#2365#2397#0" expanded="false" />
+                <element signature="e#2437#2816#0" expanded="false" />
+                <element signature="e#2708#2757#0" expanded="false" />
+                <element signature="e#2783#2816#0" expanded="false" />
+                <element signature="e#5208#5719#0" expanded="false" />
+                <element signature="e#5540#5593#0" expanded="false" />
+                <element signature="e#5619#5719#0" expanded="false" />
+                <element signature="e#5761#6163#0" expanded="false" />
+                <element signature="e#6028#6052#0" expanded="false" />
+                <element signature="e#6078#6163#0" expanded="false" />
+                <element signature="e#6205#6748#0" expanded="false" />
+                <element signature="e#6574#6654#0" expanded="false" />
+                <element signature="e#6687#6748#0" expanded="false" />
+                <element signature="e#6790#7752#0" expanded="false" />
+                <element signature="e#7593#7677#0" expanded="false" />
+                <element signature="e#7710#7752#0" expanded="false" />
+                <element signature="e#8615#8694#0" expanded="false" />
+                <element signature="e#8727#8772#0" expanded="false" />
+                <element signature="e#8775#8776#0" expanded="false" />
+                <element signature="e#11334#11644#0" expanded="false" />
+                <element signature="e#11806#11910#0" expanded="false" />
+                <element signature="e#11943#12029#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ArticleView.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/serializers/ArticleView.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#54#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="s9day109 .py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../../../03【复习视频】/吴佩奇/day109课上所有/s9day109 .py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3090">
+              <caret line="103" column="25" lean-forward="false" selection-start-line="103" selection-start-column="20" selection-end-line="103" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ArticleView.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/views/article/ArticleView.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="355">
+              <caret line="22" column="12" lean-forward="true" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+              <folding>
+                <element signature="e#0#48#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="面试题" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/面试题">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-6536">
+              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>course</find>
+      <find>专题</find>
+      <find>视频</find>
+      <find>课程</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/TmSccity_models/urls.py" />
+        <option value="$PROJECT_DIR$/api/tests.py" />
+        <option value="$PROJECT_DIR$/TmSccity_models/settings.py" />
+        <option value="$PROJECT_DIR$/templates/course.html" />
+        <option value="$PROJECT_DIR$/api/serializers/coursehost.py" />
+        <option value="$PROJECT_DIR$/api/admin.py" />
+        <option value="$PROJECT_DIR$/api/serializers/ArticleView.py" />
+        <option value="$PROJECT_DIR$/api/views/course/coursehost.py" />
+        <option value="$PROJECT_DIR$/api/models.py" />
+        <option value="$PROJECT_DIR$/luffy_models/wsgi.py" />
+        <option value="$PROJECT_DIR$/TmSccity_models/wsgi.py" />
+        <option value="$PROJECT_DIR$/manage.py" />
+        <option value="$PROJECT_DIR$/../../../03【复习视频】/s9day108-video课上所有/s9day108 .py" />
+        <option value="$PROJECT_DIR$/面试题" />
+        <option value="$PROJECT_DIR$/api/urls.py" />
+        <option value="$PROJECT_DIR$/api/views/article/ArticleView.py" />
+        <option value="$PROJECT_DIR$/../../../03【复习视频】/吴佩奇/day109课上所有/s9day109 .py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="55" />
+    <option name="y" value="-8" />
+    <option name="width" value="1319" />
+    <option name="height" value="784" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="models" type="b2602c69:ProjectViewProjectNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="models" type="b2602c69:ProjectViewProjectNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="models" type="b2602c69:ProjectViewProjectNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="serializers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="models" type="b2602c69:ProjectViewProjectNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="models" type="b2602c69:ProjectViewProjectNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="article" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="models" type="b2602c69:ProjectViewProjectNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+              <item name="TmSccity_models" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="Sqlite (Xerial)" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\pycharm\text_list\TmSccity_models\api\views" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\04【老男孩Python】\02【作业】\TmSccity_models\models" />
+      <recent name="H:\04【老男孩Python】\02【作业】\TmSccity_models\models\templates\js" />
+      <recent name="D:\pycharm\text_list\TmSccity_models\api\course" />
+      <recent name="D:\pycharm\text_list\TmSccity_models\api" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Django server.luffy">
+    <configuration name="manage" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="TmSccity_models" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manage.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="tests" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/api" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="TmSccity_models" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/api/tests.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="luffy" type="Python.DjangoServer" factoryName="Django server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="TmSccity_models.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="TmSccity_models" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8088" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+    </configuration>
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="Django server.luffy" />
+      <item index="1" class="java.lang.String" itemvalue="Python.tests" />
+      <item index="2" class="java.lang.String" itemvalue="Python.manage" />
+    </list>
+    <recent_temporary>
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Python.manage" />
+        <item index="1" class="java.lang.String" itemvalue="Python.tests" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2d8407ac-ca6a-4788-a61c-e5b109dd06ca" name="Default" comment="" />
+      <created>1527767497763</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1527767497763</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36651054" sideWeight="0.5021322" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30444965" sideWeight="0.4978678" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290398" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11748927" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.11748927" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="manage.py@TmSccity_models" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36651054" sideWeight="0.5021322" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5023419" sideWeight="0.4978678" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290398" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11748927" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="manage.py@TmSccity_models" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11748927" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/api/serializers/CourseView.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2010">
+          <caret line="68" column="66" lean-forward="false" selection-start-line="68" selection-start-column="66" selection-end-line="68" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/serializers/CourseView.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="35" column="68" lean-forward="false" selection-start-line="35" selection-start-column="68" selection-end-line="35" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/views/course/CourseView.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1134">
+          <caret line="47" column="12" lean-forward="false" selection-start-line="47" selection-start-column="12" selection-end-line="47" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#310#504#0" expanded="false" />
+            <element signature="e#424#447#0" expanded="false" />
+            <element signature="e#473#504#0" expanded="false" />
+            <element signature="e#549#798#0" expanded="false" />
+            <element signature="e#718#741#0" expanded="false" />
+            <element signature="e#767#798#0" expanded="false" />
+            <element signature="e#839#1841#0" expanded="false" />
+            <element signature="e#1476#1515#0" expanded="false" />
+            <element signature="e#1769#1785#0" expanded="false" />
+            <element signature="e#1811#1841#0" expanded="false" />
+            <element signature="e#2323#2339#0" expanded="false" />
+            <element signature="e#2365#2397#0" expanded="false" />
+            <element signature="e#2437#2816#0" expanded="false" />
+            <element signature="e#2708#2757#0" expanded="false" />
+            <element signature="e#2783#2816#0" expanded="false" />
+            <element signature="e#5208#5719#0" expanded="false" />
+            <element signature="e#5540#5593#0" expanded="false" />
+            <element signature="e#5619#5719#0" expanded="false" />
+            <element signature="e#5761#6163#0" expanded="false" />
+            <element signature="e#6028#6052#0" expanded="false" />
+            <element signature="e#6078#6163#0" expanded="false" />
+            <element signature="e#6205#6748#0" expanded="false" />
+            <element signature="e#6574#6654#0" expanded="false" />
+            <element signature="e#6687#6748#0" expanded="false" />
+            <element signature="e#6790#7752#0" expanded="false" />
+            <element signature="e#7593#7677#0" expanded="false" />
+            <element signature="e#7710#7752#0" expanded="false" />
+            <element signature="e#8615#8694#0" expanded="false" />
+            <element signature="e#8727#8772#0" expanded="false" />
+            <element signature="e#8775#8776#0" expanded="false" />
+            <element signature="e#11334#11644#0" expanded="false" />
+            <element signature="e#11806#11910#0" expanded="false" />
+            <element signature="e#11943#12029#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TmSccity_models/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3051">
+          <caret line="113" column="0" lean-forward="false" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="37" lean-forward="true" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/views/course/CourseView.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="40" lean-forward="false" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="864">
+          <caret line="88" column="12" lean-forward="false" selection-start-line="88" selection-start-column="6" selection-end-line="88" selection-end-column="12" />
+          <folding>
+            <element signature="e#310#504#0" expanded="false" />
+            <element signature="e#424#447#0" expanded="false" />
+            <element signature="e#473#504#0" expanded="false" />
+            <element signature="e#549#798#0" expanded="false" />
+            <element signature="e#718#741#0" expanded="false" />
+            <element signature="e#767#798#0" expanded="false" />
+            <element signature="e#839#1841#0" expanded="false" />
+            <element signature="e#1476#1515#0" expanded="false" />
+            <element signature="e#1769#1785#0" expanded="false" />
+            <element signature="e#1811#1841#0" expanded="false" />
+            <element signature="e#2323#2339#0" expanded="false" />
+            <element signature="e#2365#2397#0" expanded="false" />
+            <element signature="e#2437#2816#0" expanded="false" />
+            <element signature="e#2708#2757#0" expanded="false" />
+            <element signature="e#2783#2816#0" expanded="false" />
+            <element signature="e#5208#5719#0" expanded="false" />
+            <element signature="e#5540#5593#0" expanded="false" />
+            <element signature="e#5619#5719#0" expanded="false" />
+            <element signature="e#5761#6163#0" expanded="false" />
+            <element signature="e#6028#6052#0" expanded="false" />
+            <element signature="e#6078#6163#0" expanded="false" />
+            <element signature="e#6205#6748#0" expanded="false" />
+            <element signature="e#6574#6654#0" expanded="false" />
+            <element signature="e#6687#6748#0" expanded="false" />
+            <element signature="e#6790#7752#0" expanded="false" />
+            <element signature="e#7593#7677#0" expanded="false" />
+            <element signature="e#7710#7752#0" expanded="false" />
+            <element signature="e#8615#8694#0" expanded="false" />
+            <element signature="e#8727#8772#0" expanded="false" />
+            <element signature="e#8775#8776#0" expanded="false" />
+            <element signature="e#11334#11644#0" expanded="false" />
+            <element signature="e#11806#11910#0" expanded="false" />
+            <element signature="e#11943#12029#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/serializers/CourseView.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="20" column="61" lean-forward="false" selection-start-line="20" selection-start-column="61" selection-end-line="20" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TmSccity_models/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3051">
+          <caret line="113" column="0" lean-forward="false" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="11" column="35" lean-forward="true" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TmSccity_models/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2025">
+          <caret line="214" column="29" lean-forward="true" selection-start-line="214" selection-start-column="29" selection-end-line="214" selection-end-column="29" />
+          <folding>
+            <element signature="e#310#504#0" expanded="false" />
+            <element signature="e#424#447#0" expanded="false" />
+            <element signature="e#473#504#0" expanded="false" />
+            <element signature="e#549#798#0" expanded="false" />
+            <element signature="e#718#741#0" expanded="false" />
+            <element signature="e#767#798#0" expanded="false" />
+            <element signature="e#839#1841#0" expanded="false" />
+            <element signature="e#1476#1515#0" expanded="false" />
+            <element signature="e#1769#1785#0" expanded="false" />
+            <element signature="e#1811#1841#0" expanded="false" />
+            <element signature="e#2323#2339#0" expanded="false" />
+            <element signature="e#2365#2397#0" expanded="false" />
+            <element signature="e#2437#2816#0" expanded="false" />
+            <element signature="e#2708#2757#0" expanded="false" />
+            <element signature="e#2783#2816#0" expanded="false" />
+            <element signature="e#5208#5719#0" expanded="false" />
+            <element signature="e#5540#5593#0" expanded="false" />
+            <element signature="e#5619#5719#0" expanded="false" />
+            <element signature="e#5761#6163#0" expanded="false" />
+            <element signature="e#6028#6052#0" expanded="false" />
+            <element signature="e#6078#6163#0" expanded="false" />
+            <element signature="e#6205#6748#0" expanded="false" />
+            <element signature="e#6574#6654#0" expanded="false" />
+            <element signature="e#6687#6748#0" expanded="false" />
+            <element signature="e#6790#7752#0" expanded="false" />
+            <element signature="e#7593#7677#0" expanded="false" />
+            <element signature="e#7710#7752#0" expanded="false" />
+            <element signature="e#8615#8694#0" expanded="false" />
+            <element signature="e#8727#8772#0" expanded="false" />
+            <element signature="e#8775#8776#0" expanded="false" />
+            <element signature="e#11334#11644#0" expanded="false" />
+            <element signature="e#11806#11910#0" expanded="false" />
+            <element signature="e#11943#12029#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/views/course/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/42ec915/92b07afa-2c8e-4e63-ac06-f846cb2e5974/main.api_coursedetail_recommend_courses" />
+    <entry file="das://table:/42ec915/92b07afa-2c8e-4e63-ac06-f846cb2e5974/main.api_coursechapter" />
+    <entry file="das://table:/42ec915/92b07afa-2c8e-4e63-ac06-f846cb2e5974/main.api_courseoutline" />
+    <entry file="das://table:/42ec915/92b07afa-2c8e-4e63-ac06-f846cb2e5974/main.api_coursedetail" />
+    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python35/site-packages/django/contrib/contenttypes/fields.py" />
+    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python35/site-packages/django/contrib/contenttypes/models.py" />
+    <entry file="das://table:/42ec915/92b07afa-2c8e-4e63-ac06-f846cb2e5974/main.django_content_type" />
+    <entry file="das://table:/42ec915/92b07afa-2c8e-4e63-ac06-f846cb2e5974/main.api_oftenaskedquestion" />
+    <entry file="das://table:/42ec915/92b07afa-2c8e-4e63-ac06-f846cb2e5974/main.api_course" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/02232c4b-11b1-41d5-ab85-756088e56389/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/js/jquery-3.2.1.min.js" />
+    <entry file="file://$PROJECT_DIR$/templates/course.html" />
+    <entry file="file://$PROJECT_DIR$/api/serializers/CourseView.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="59" lean-forward="false" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python35/Lib/site-packages/django/contrib/contenttypes/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="138" column="6" lean-forward="false" selection-start-line="138" selection-start-column="6" selection-end-line="138" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="23" column="25" lean-forward="false" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2017.3/system/python_stubs/-1313743207/sys.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1310">
+          <caret line="513" column="0" lean-forward="false" selection-start-line="513" selection-start-column="0" selection-end-line="513" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python35/Lib/site-packages/django/conf/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="109" column="0" lean-forward="false" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python35/Lib/importlib/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="125" column="0" lean-forward="false" selection-start-line="125" selection-start-column="0" selection-end-line="125" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python35/Lib/site-packages/django/core/management/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="136" column="8" lean-forward="false" selection-start-line="136" selection-start-column="8" selection-end-line="136" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/migrations/0001_initial.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2250">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TmSccity_models/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/views/course/CourseView.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="5" column="31" lean-forward="false" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TmSccity_models/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3600">
+          <caret line="120" column="0" lean-forward="false" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="62" lean-forward="false" selection-start-line="5" selection-start-column="62" selection-end-line="5" selection-end-column="62" />
+          <folding>
+            <element signature="e#22#31#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TmSccity_models/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="13" column="49" lean-forward="false" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="57" />
+          <folding>
+            <element signature="e#232#241#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../03【复习视频】/s9day108-video课上所有/s9day108 .py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TmSccity_models/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="21" column="50" lean-forward="true" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
+          <folding>
+            <element signature="e#649#689#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1674">
+          <caret line="119" column="24" lean-forward="false" selection-start-line="119" selection-start-column="24" selection-end-line="119" selection-end-column="24" />
+          <folding>
+            <element signature="e#310#504#0" expanded="false" />
+            <element signature="e#424#447#0" expanded="false" />
+            <element signature="e#473#504#0" expanded="false" />
+            <element signature="e#549#798#0" expanded="false" />
+            <element signature="e#718#741#0" expanded="false" />
+            <element signature="e#767#798#0" expanded="false" />
+            <element signature="e#839#1841#0" expanded="false" />
+            <element signature="e#1476#1515#0" expanded="false" />
+            <element signature="e#1769#1785#0" expanded="false" />
+            <element signature="e#1811#1841#0" expanded="false" />
+            <element signature="e#2323#2339#0" expanded="false" />
+            <element signature="e#2365#2397#0" expanded="false" />
+            <element signature="e#2437#2816#0" expanded="false" />
+            <element signature="e#2708#2757#0" expanded="false" />
+            <element signature="e#2783#2816#0" expanded="false" />
+            <element signature="e#5208#5719#0" expanded="false" />
+            <element signature="e#5540#5593#0" expanded="false" />
+            <element signature="e#5619#5719#0" expanded="false" />
+            <element signature="e#5761#6163#0" expanded="false" />
+            <element signature="e#6028#6052#0" expanded="false" />
+            <element signature="e#6078#6163#0" expanded="false" />
+            <element signature="e#6205#6748#0" expanded="false" />
+            <element signature="e#6574#6654#0" expanded="false" />
+            <element signature="e#6687#6748#0" expanded="false" />
+            <element signature="e#6790#7752#0" expanded="false" />
+            <element signature="e#7593#7677#0" expanded="false" />
+            <element signature="e#7710#7752#0" expanded="false" />
+            <element signature="e#8615#8694#0" expanded="false" />
+            <element signature="e#8727#8772#0" expanded="false" />
+            <element signature="e#8775#8776#0" expanded="false" />
+            <element signature="e#11334#11644#0" expanded="false" />
+            <element signature="e#11806#11910#0" expanded="false" />
+            <element signature="e#11943#12029#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="84" lean-forward="false" selection-start-line="9" selection-start-column="84" selection-end-line="9" selection-end-column="84" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/views/article/ArticleView.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="22" column="12" lean-forward="true" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/面试题">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6536">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/serializers/ArticleView.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../03【复习视频】/吴佩奇/day109课上所有/s9day109 .py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3090">
+          <caret line="103" column="25" lean-forward="false" selection-start-line="103" selection-start-column="20" selection-end-line="103" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

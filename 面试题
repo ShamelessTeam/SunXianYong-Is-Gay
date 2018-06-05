@@ -1,0 +1,251 @@
+1，Django请求生命周期
+
+　　一、-> 执行遵循wsgi协议的模块（socket服务端）
+    -> 执行遵循wsgi协议的模块（socket服务端）
+	-> 中间件(路由匹配)
+	-> 视图函数（业务处理：ORM、模板渲染）
+	-> 中间件
+	-> wsgi返回
+
+　　　　1）什么是wsgi?
+
+　　　　web服务网关接口
+
+　　　　2）实现该协议的模块　　　　
+
+　　　　　- wsgiref
+　　　　　- werkzurg
+　　　　    - uwsig
+
+		相应：响应头\r\n\r\n响应体
+
+　　3、-> 中间件(路由匹配)
+
+　　　　中间件可以定义五个方法，分别是：（主要的是process_request和process_response）
+
+　　process_request(self,request)
+　　process_view(self, request, view_func, view_args, view_kwargs)
+　　process_template_response(self,request,response)
+　　process_exception(self, request, exception)
+　　process_response(self, request, response)
+　　三、-> 视图函数（业务处理：ORM、模板渲染）
+
+　　FBV与CBV
+
+　　　　　　FBV（function base views） 就是在视图里使用函数处理请求。
+
+　　　　　　CBV（class base views） 就是在视图里使用类处理请求。
+
+　　cbv本质上是FBV，Python是一个面向对象的编程语言，如果只用函数来开发，有很多面向对象的优点就错失了（继承、封装、多态）。所以Django在后来加入了Class-Based-View。可以让我们用类写View。这样做的优点主要下面两种：
+
+提高了代码的复用性，可以使用面向对象的技术，比如Mixin（多继承）
+可以用不同的函数针对不同的HTTP方法处理，而不是通过很多if判断，提高代码可读性
+　　四、-> 中间件
+　　五、-> wsgi返回
+
+2，Django restframework框架
+
+作用：快速搭建基于restful规范的接口。
+
+　　1，路由
+        可以通过as_view传参数，根据请求方式不同执行响应的方法
+        可以在url中设置一个结尾，类似 .json
+　　2，视图
+        帮助开发者蹄花了一些类，并在类中提供多个方法以共我们使用。
+　　3，认证、
+        写一个类注册到认证类，在类的auth
+　　4，权限
+
+　　5，频率
+
+　　6，序列化
+
+　　7，解析器
+        根据contenttpe请求头，选择不同的解析器，对请求数据的请求体进行解析
+　　8，渲染器
+
+　　9，版本
+
+　　10，分页
+        对从数据库中获取到的数据进行分页处理：SQL -> limit offset
+        分页的种类：三种
+        1、根据页码来分：http://www.luffycity.com/api/v1/?page=1&size=10
+        2、根据索引来查：http://www.luffycity.com/api/v1/?offset=1&size=10
+        3、根据加密的形式来查：http://www.luffycity.com/api/v1/?offset=1&size=s54es
+3，rest规范
+
+restful是一个规范，规定API如何编写，通过他可以让我们api更加简洁可维护。
+
+　　1，面向自选编程
+
+　　2，体现版本
+
+　　3，体现API
+
+　　4，https
+
+　　5，条件
+
+　　6，根据method不同，进行不同的操作
+
+　　7，响应市设置状态码
+
+　　8，返回值
+
+　　9，返回错误信息
+
+　　10，Hypermedia API
+
+3,跨域
+
+　　1，为什么会有跨域？
+
+　　因为浏览的同源策略，地址不同、端口不同都会发生跨域
+　　绕过浏览器的同源策略就可以跨域。
+
+　　2,解决方法：
+
+　　1）jsonp
+
+　　动态创建script标签。
+
+　　同源策略会阻止ajax请求，不阻止具有src属性的标签，
+
+　　2）cors
+
+　　设置响应头
+
+class CORSMiddleware(MiddlewareMixin):
+
+    def process_response(self,request,response):
+        # 添加响应头
+
+        # 允许你的域名来获取我的数据
+        response['Access-Control-Allow-Origin'] = "*"
+
+        # 允许你携带Content-Type请求头
+        # response['Access-Control-Allow-Headers'] = "Content-Type"
+
+        # 允许你发送DELETE,PUT
+        # response['Access-Control-Allow-Methods'] = "DELETE,PUT"
+
+        return response
+4，Http协议：
+
+Http协议就是一个传输数据格式。
+我原来学习django框架，从socket服务端开始学起。
+自己创造了一个socket服务器来充当：网站。
+浏览器当socket客户端。
+更清楚的明白到底http协议是什么？
+- 请求头 请求体
+    POST /index HTTP1.1\r\n\r\n
+- 响应头 响应体
+一次请求响应后，断开连接。
+
+
+常见的请求体：
+
+- Content-Type
+- User-Agent
+- referer，可以做图片防盗链。
+- Host
+- cookies
+
+常见的请求方法：
+
+- GET/POST/DELETE/PUT/PATCH/OPTIONS
+
+常见请求体：
+
+Form表单提交：
+POST /index http1.1\r\nhost:www.luffycity.com...\r\n\r\nusername=alex&password=123&...
+Ajax请求：
+POST /index http1.1\r\nhost:www.luffycity.com...\r\n\r\nusername=alex&password=123&...
+POST /index http1.1\r\nhost:www.luffycity.com...\r\n\r\n{“username”:"alex","password":123}
+
+补充：django中获取请求体
+- request.POST
+
+常见的状态码：
+
+- 200
+- 301/302
+- 403/404
+- 500
+
+5，序列化中视图继承的类
+
+from rest_framework.views import APIView # *
+from rest_framework.generics import GenericAPIView
+from rest_framework.viewsets import GenericViewSet # as_view
+from rest_framework.viewsets import ModelViewSet # *
+
+6， 如何实现的访问频率控制？
+
+匿名用户：无法控制，因为用户可以换代理IP
+{
+192.168.1.1:[1521223123.232, 1521223122.232, 1521223121.232],
+192.168.1.2:[1521223123.232, 1521223122.232, 1521223121.232],
+192.168.1.3:[1521223123.232, 1521223122.232, 1521223121.232],
+192.168.1.4:[1521223123.232, 1521223122.232, 1521223121.232],
+192.168.1.5:[1521223123.232, 1521223122.232, 1521223121.232],
+192.168.1.6:[1521223123.232, 1521223122.232, 1521223121.232],
+}
+
+
+登录用户：如果有很多账号，也无法限制
+{
+alex:[1521223123.232, 1521223122.232, 1521223121.232],
+eric:[1521223123.232, 1521223122.232, 1521223121.232],
+}
+
+参考源码：from rest_framework.throttling import SimpleRateThrottle
+
+7,ORM补充：
+
+a. 需求: 只取某n列
+　　queryset=[ {},{}]
+　　models.User.objects.all().values( 'id','name')
+
+　　queryset=[ (),()]
+　　models.User.objects.all().values_list( 'id','name')
+
+　　queryset=[ obj,obj]
+　　result = models.User.objects.all().only('id','name','age')
+　　# result = models.User.objects.all().defer('id','name','age')
+　　for item in reuslt:
+　　print(item.id,item.name,item.age)
+b. 需求: 打印所有用户姓名以及部门名称
+
+　　class depart:
+　　title = ....
+　　class User:
+　　name = ...
+　　dp = FK(depart)
+　　# select * from user
+　　# result = models.User.objects.all()
+　　# for item in result:
+　　# print(item.name)
+　　# select * from user left join depart on user.dp_id = depart.id
+　　# result = models.User.objects.all().selected_related('dp')
+　　# for item in result:
+　　#print(item.name,item.dp.title )
+
+8.djang rest framework
+		路由
+		视图
+		->你的写的类都继承过哪些类？
+			class View(object):
+
+			class APIView(View):
+
+			class GenericAPIView(views.APIView):
+
+			class GenericViewSet(ViewSetMixin, generics.GenericAPIView)
+
+			class ModelViewSet(mixins.CreateModelMixin,
+                   mixins.RetrieveModelMixin,
+                   mixins.UpdateModelMixin,
+                   mixins.DestroyModelMixin,
+                   mixins.ListModelMixin,
+                   GenericViewSet):
